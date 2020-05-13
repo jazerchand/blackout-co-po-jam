@@ -171,7 +171,7 @@ class Printer {
                 speaker.rate = 0.75;
             }
 
-            speaker.voice = voices[1];
+//             speaker.voice = voices[1];
             speaker.volume = 1;
 
             window.speechSynthesis.speak(speaker);
