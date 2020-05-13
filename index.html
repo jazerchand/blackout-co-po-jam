@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blackout Poetry</title>
+    <!-- STYLESHEET -->
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <!-- FUNC FILES -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/rita/1.3.94/rita-full.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.min.js"></script>
+    <script src="./js/speech.js"></script>
+    <script src="./js/printer.js"></script>
+    <script src="./js/human.js"></script>
+    <script src="./js/computer.js"></script>
+    <script src="./js/alien.js"></script>
+    <script src="./js/sketch.js"></script>
+  </head>
+
+  <body>
+    <!-- <div class="button_holder"></div> -->
+    <section class="container">
+      <section class="main">
+        <section class="panel panel_right sans">
+          <div class="menu_unit logo">
+            Blackout Poetry Tool
+          </div>
+          <div class="menu_unit info">
+            <a
+              href="https://cdn.glitch.com/6f4a886f-e48b-4f0e-a2c3-2e58d36981ec%2Fwhat%20is%20blackout%20poetry.pdf?v=1588862184675"
+              target="blank"
+              >What's blackout poetry?</a
+            >
+          </div>
+          <div class="menu_unit modesbar">
+            <div class="mode_title">
+              Poem Creation Mode:
+            </div>
+            <div class="modes">
+              <span class="mode">
+                <i class="icon icon-hand">👉</i>
+                <span class="mli" data-mode="Hu" data-state="0">Thesis</span>
+                <i class="mi">( Only you select )</i>
+              </span>
+              <span class="mode">
+                <i class="icon icon-hand">👉</i>
+                <span class="mli" data-mode="Co" data-state="0"
+                  >Antithesis</span
+                >
+                <i class="mi">( Only bot selects )</i>
+              </span>
+              <span class="mode">
+                <i class="icon icon-hand">👉</i>
+                <span class="mli" data-mode="Sy" data-state="0"
+                  >Synthesis</span
+                >
+                <i class="mi">( You select, bot selects )</i>
+              </span>
+              <span class="mode">
+                <i class="icon icon-hand">👉</i>
+                <span class="mli" data-mode="Sb" data-state="0"
+                  >Symbiosis</span
+                >
+                <i class="mi">( You select, bot suggests )</i>
+              </span>
+              <span class="mode">
+                <i class="icon icon-hand">👉</i>
+                <span class="mli" data-mode="Al" data-state="0"
+                  >Visual</span
+                >
+                <i class="mi">( Only bot draws a wave )</i>
+              </span>
+            </div>
+          </div>
+          <div class="menu_unit sublogo">
+            <div class="sub_unit">
+              In the context of Human-Computer Dichotomy
+              <i class="icon">➝</i>
+                <a class="button_unit read_bttn" href="_WIP" target="_blank">
+                  Know more
+                </a>
+            </div>
+          </div>
+        </section>
+        <section class="panel panel_left">
+          <section class="panel_top serif">
+            <div class="corpus corpus_title"></div>
+            <div class="corpus corpus_body"></div>
+          </section>
+          <section class="panel_footer sans"></section>
+        </section>
+      </section>
+    </section>
+</body>
+</html>
