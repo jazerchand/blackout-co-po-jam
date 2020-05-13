@@ -256,8 +256,4 @@ class Printer {
         }
     }
 
-    // poop(poo){
-    //     return(poo);
-    // }
-
 }    
